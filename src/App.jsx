@@ -2,6 +2,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import { ItemCount } from './components/ItemCount/ItemCount'
+
 function App() {
   const handleCart =(cantidad)=>{
     console.log("cantidad es de ", cantidad)
@@ -10,7 +11,7 @@ function App() {
   return(
     <div>
       <NavBar/>
-      <ItemListContainer greeting={'Rick And Morty'}/>
+     <ItemListContainer greeting={"ecommerce"}/>
     <ItemCount stock={5} onAdd={handleCart}/>
     </div>
   )

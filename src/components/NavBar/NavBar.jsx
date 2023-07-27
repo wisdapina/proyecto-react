@@ -5,7 +5,7 @@ function NavBar (){
        <div className="d-flex justify-content-around mt-4 dark">
                 <nav className="  navbar  navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                <a className="navbar-brand " href="#"><img className="img-fluid " src="https://repository-images.githubusercontent.com/120371205/b6740400-92d4-11ea-8a13-d5f6e0558e9b" alt="logo" /></a>
+                <a className="navbar-brand " href="#"><img className="img-fluid " src="" alt="logo" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>

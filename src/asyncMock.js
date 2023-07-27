@@ -5,7 +5,8 @@ const products = [
         category:'electrico',
         img: 'https://cdn.w600.comps.canstockphoto.es/un-port%C3%A1til-moderno-dibujo_csp14338101.jpg',
         stock:'5',
-        description:'notebook para oficina'
+        description:'notebook para oficina',
+        precio:"2000"
 
     },
     {
@@ -14,7 +15,8 @@ const products = [
         category:'electrico',
         img: 'https://www.fullh4rd.com.ar/img/productos/31/celular-samsung-galaxy-a13-4gb64gb-celeste-0.jpg',
         stock:'2',
-        description:'celular samsung'
+        description:'celular samsung',
+        precio:"1000"
 
 
     },
@@ -24,7 +26,8 @@ const products = [
         category:'electrico',
         img: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/12/ipad-10a-generacion-analisis-opinion-2897862.jpg?tf=1200x',
         stock:'3',
-        description:'notebook para oficina'
+        description:'notebook para oficina',
+        precio:'1500'
 
     },
     {
@@ -33,7 +36,8 @@ const products = [
         category:'electrico',
         img: 'https://http2.mlstatic.com/D_NQ_NP_846302-MLA53808697326_022023-O.webp',
         stock:'1',
-        description:'secador para pelo'
+        description:'secador para pelo',
+        precio:'4000'
 
     }
 
@@ -42,9 +46,9 @@ const products = [
 
 
 export const getProducts =()=>{
-
-
-
-
-    
+    return new Promise ((resolve)=>{
+        setTimeout(()=>{
+            resolve(products) },500)
+    }
+    )
 }
